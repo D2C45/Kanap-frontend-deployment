@@ -11,7 +11,7 @@ const items = document.getElementById('items');
  */
 function display(couchList) {
     for(let couch of couchList) {
-        items.innerHTML += `<a href="./product.html?id=${couch._id}">
+        items.innerHTML += `<a href="./html/product.html?id=${couch._id}">
                                 <article>
                                     <img src="${couch.imageUrl}" alt="${couch.altTxt}">
                                     <h3 class="productName">${couch.name}</h3>
