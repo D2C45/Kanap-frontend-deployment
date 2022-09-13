@@ -1,8 +1,5 @@
-const dotenv = require('dotenv');
-dotenv.config();
-
 let config = {
-    host: process.env.API_URL
+    host: "https://kanap-production.up.railway.app/api/products/"
 }
 
 export {config};
