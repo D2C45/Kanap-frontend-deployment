@@ -1,5 +1,5 @@
 let config = {
-    host: "https://kanap-production.up.railway.app/api/products/"
+    host: "https://kanap-theta.vercel.app/api/products/"
 }
 
 export {config};
